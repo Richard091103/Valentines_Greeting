@@ -1,0 +1,240 @@
+.message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-top: 100px;
+    padding: 20px 0;
+
+    .content {
+        min-height: 80%;
+        max-height: auto;
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        color: white;
+        padding: 30px;
+        border: 1px solid white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+        p {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: right;
+            text-align: right;
+
+
+            h1 {
+                font-size: 14px;
+                font-style: italic;
+                letter-spacing: 3px;
+                padding: 20px 10px;
+            }
+        }
+
+        .body-message {
+            display: flex;
+            justify-content: left;
+            text-align: left;
+            flex-direction: column;
+            padding: 10px 0;
+
+            h1 {
+                font-size: 26px;
+                font-style: italic;
+                letter-spacing: 2px;
+                padding: 20px 10px;
+            }
+
+            p {
+                font-size: 14px;
+                letter-spacing: 3px;
+                padding: 10px 10px;
+                line-height: 1.8;
+            }
+        }
+
+        .footer {
+            display: flex;
+            justify-content: left;
+            text-align: left;
+            flex-direction: column;
+            padding: 20px 10px;
+
+
+            h1 {
+                font-size: 14px;
+                letter-spacing: 3px;
+                padding: 5px 0;
+            }
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px 0;
+
+        .content {
+            min-height: 80%;
+            max-height: auto;
+            width: 70%;
+            background-color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+            color: white;
+            padding: 30px;
+            border: 1px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            p {
+                font-size: 1rem;
+                letter-spacing: 3px;
+            }
+
+            .header {
+                display: flex;
+                justify-content: right;
+                text-align: right;
+
+
+                h1 {
+                    font-size: 12px;
+                    font-style: italic;
+                    letter-spacing: 3px;
+                    padding: 10px 0px;
+                }
+            }
+
+            .body-message {
+                display: flex;
+                justify-content: left;
+                text-align: left;
+                flex-direction: column;
+                padding: 10px 0;
+
+                h1 {
+                    font-size: 16px;
+                    font-style: italic;
+                    letter-spacing: 3px;
+                    padding: 10px 0px;
+                }
+
+                p {
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    padding: 10px 0px;
+                    line-height: 1.8;
+                }
+            }
+
+            .footer {
+                display: flex;
+                justify-content: left;
+                text-align: left;
+                flex-direction: column;
+                padding: 10px 0px;
+
+
+                h1 {
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    padding: 5px 0;
+                }
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        margin-top: 100px;
+        padding: 20px 0;
+
+        .content {
+            min-height: 80%;
+            max-height: auto;
+            width: 65%;
+            background-color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+            color: white;
+            padding: 30px;
+            border: 1px solid white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+            p {
+                font-size: 1rem;
+                letter-spacing: 3px;
+            }
+
+            .header {
+                display: flex;
+                justify-content: right;
+                text-align: right;
+
+
+                h1 {
+                    font-size: 12px;
+                    font-style: italic;
+                    letter-spacing: 3px;
+                    padding: 10px 0px;
+                }
+            }
+
+            .body-message {
+                display: flex;
+                justify-content: left;
+                text-align: left;
+                flex-direction: column;
+                padding: 10px 0;
+
+                h1 {
+                    font-size: 16px;
+                    font-style: italic;
+                    letter-spacing: 3px;
+                    padding: 10px 0px;
+                }
+
+                p {
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    padding: 10px 0px;
+                    line-height: 1.8;
+                }
+            }
+
+            .footer {
+                display: flex;
+                justify-content: left;
+                text-align: left;
+                flex-direction: column;
+                padding: 10px 0px;
+
+
+                h1 {
+                    font-size: 14px;
+                    letter-spacing: 3px;
+                    padding: 5px 0;
+                }
+            }
+
+
+        }
+    }
+}

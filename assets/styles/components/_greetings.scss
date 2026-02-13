@@ -1,0 +1,109 @@
+.greetings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+
+    h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #ffd700;
+        margin: 15px 0;
+        font-style: italic;
+    }
+
+    p {
+        font-size: 14px;
+        letter-spacing: 3px;
+        font-style: italic;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .greetings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        height: 100vh;
+        flex-direction: column;
+        margin: 0;
+
+        h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: #ffd700;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 14px;
+            letter-spacing: 3px;
+            font-style: italic;
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .greetings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        height: 100vh;
+        flex-direction: column;
+        margin: 0;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: #ffd700;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 12px;
+            letter-spacing: 3px;
+            font-style: italic;
+        }
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .greetings {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        height: 100vh;
+        flex-direction: column;
+        margin: 0;
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            letter-spacing: 5px;
+            color: #ffd700;
+            margin: 15px 0;
+            font-style: italic;
+        }
+
+        p {
+            font-size: 12px;
+            letter-spacing: 3px;
+            font-style: italic;
+        }
+    }
+}

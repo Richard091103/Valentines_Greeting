@@ -1,0 +1,18 @@
+@forward "components/commons";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main {
+    min-height: 100vh; // ✅ min-height instead of height
+    height: auto; // ✅ para lumaki kung kinakailangan
+    background: #ad190e;
+    background: radial-gradient(circle, rgba(173, 25, 14, 1) 0%, rgba(79, 13, 6, 1) 100%);
+
+    // // Para sure na mag-scroll
+    // overflow-y: auto;    // ✅ auto scroll kapag need
+    // overflow-x: hidden;  // itago horizontal scroll
+}
